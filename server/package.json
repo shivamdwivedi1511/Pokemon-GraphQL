@@ -4,12 +4,17 @@
   "description": "a simple graphql server using nodejs,expressjs,mongodb and graphql",
   "main": "server.js",
   "scripts": {
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "cd.. && cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "shivam dwivedi",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^3.6.0",
+    "cors": "^2.8.4",
     "express": "^4.16.3",
     "express-graphql": "^0.6.12",
     "graphql": "^0.13.2",
