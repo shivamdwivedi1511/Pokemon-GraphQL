@@ -1,4 +1,7 @@
 # Pokemon-GraphQL
+## since there is some issue with the deployment of this website, to execute the project
+## clone the repo. and execute "npm run dev" in the Terminal
+
 ![pokemon graphql - google chrome 7_15_2018 2_30_09 pm](https://user-images.githubusercontent.com/39148476/42732325-13efbd9e-883d-11e8-836c-c030b89ebc11.png)
 A full stack MERN application that uses GraphQL to build up a Pokemon Detail website
 
